@@ -1,3 +1,28 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
 img {
-    size: 20%;
+    height: 70px;
+    padding-right: 30px;
+}
+
+div {
+    display: flex;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+
+}
+li a {
+    color: white;
+    text-decoration: none;
 }
